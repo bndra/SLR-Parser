@@ -1,0 +1,362 @@
+Parsing test_case20.txt
+
+table: A0		shifted: int
+table: A12		reduced: 10: Type int 
+table: A8		shifted: id
+table: A18		shifted: leftparen
+table: A23		shifted: int
+table: A12		reduced: 10: Type int 
+table: A35		shifted: id
+table: A58		reduced: 9: Variable Type id 
+table: A34		reduced: 19: Formals Variable 
+table: A32		shifted: rightparen
+table: A54		shifted: leftbrace
+table: A56		shifted: if
+table: A98		shifted: leftparen
+table: A148		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A184		shifted: greater
+table: A132		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A168		reduced: 89: Expr Expr greater Expr 
+table: A184		shifted: rightparen
+table: A200		shifted: return
+table: A102		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A152		shifted: multiplication
+table: A127		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: leftparen
+table: A141		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A179		shifted: minus
+table: A126		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A162		reduced: 82: Expr Expr minus Expr 
+table: A179		reduced: 74: E Expr 
+table: A177		shifted: rightparen
+table: A196		reduced: 102: Call Lvalue leftparen E rightparen 
+table: A91		reduced: 79: Expr Call 
+table: A163		reduced: 83: Expr Expr multiplication Expr 
+table: A152		shifted: semicolon
+table: A188		reduced: 70: ReturnStmt return Expr semicolon 
+table: A85		reduced: 59: Stmt ReturnStmt 
+table: A211		shifted: else
+table: A218		shifted: return
+table: A102		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A152		shifted: semicolon
+table: A188		reduced: 70: ReturnStmt return Expr semicolon 
+table: A85		reduced: 59: Stmt ReturnStmt 
+table: A222		reduced: 62: IfStmt if leftparen Expr rightparen Stmt else Stmt 
+table: A81		reduced: 55: Stmt IfStmt 
+table: A78		reduced: 52: S Stmt 
+table: A75		shifted: rightbrace
+table: A121		reduced: 46: StmtBlock leftbrace S rightbrace 
+table: A73		reduced: 15: FunctionDecl Type id leftparen Formals rightparen StmtBlock 
+table: A4		reduced: 5: Decl FunctionDecl 
+table: A2		shifted: void
+table: A9		shifted: id
+table: A20		shifted: leftparen
+table: A25		shifted: rightparen
+table: A37		shifted: leftbrace
+table: A56		shifted: int
+table: A12		reduced: 10: Type int 
+table: A35		shifted: id
+table: A58		reduced: 9: Variable Type id 
+table: A7		shifted: semicolon
+table: A17		reduced: 8: VariableDecl Variable semicolon 
+table: A77		shifted: int
+table: A12		reduced: 10: Type int 
+table: A35		shifted: id
+table: A58		reduced: 9: Variable Type id 
+table: A7		shifted: semicolon
+table: A17		reduced: 8: VariableDecl Variable semicolon 
+table: A77		reduced: 50: V VariableDecl 
+table: A122		reduced: 49: V VariableDecl V 
+table: A74		shifted: println
+table: A103		shifted: leftparen
+table: A154		shifted: stringconstant
+table: A107		reduced: 108: Constant stringconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A179		shifted: comma
+table: A197		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: leftparen
+table: A141		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A179		reduced: 74: E Expr 
+table: A177		shifted: rightparen
+table: A196		reduced: 102: Call Lvalue leftparen E rightparen 
+table: A91		reduced: 79: Expr Call 
+table: A179		shifted: comma
+table: A197		shifted: stringconstant
+table: A107		reduced: 108: Constant stringconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A179		reduced: 74: E Expr 
+table: A209		reduced: 73: E Expr comma E 
+table: A209		reduced: 73: E Expr comma E 
+table: A189		shifted: rightparen
+table: A204		shifted: semicolon
+table: A215		reduced: 72: PrintStmt println leftparen E rightparen semicolon 
+table: A86		reduced: 60: Stmt PrintStmt 
+table: A78		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		shifted: for
+table: A100		shifted: leftparen
+table: A150		shifted: semicolon
+table: A187		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A203		shifted: lessequal
+table: A131		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A167		reduced: 88: Expr Expr lessequal Expr 
+table: A203		shifted: semicolon
+table: A214		shifted: rightparen
+table: A221		shifted: leftbrace
+table: A56		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A174		shifted: multiplication
+table: A127		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A163		reduced: 83: Expr Expr multiplication Expr 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A174		shifted: plus
+table: A125		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A161		reduced: 81: Expr Expr plus Expr 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		reduced: 52: S Stmt 
+table: A123		reduced: 51: S Stmt S 
+table: A75		shifted: rightbrace
+table: A121		reduced: 46: StmtBlock leftbrace S rightbrace 
+table: A87		reduced: 61: Stmt StmtBlock 
+table: A226		reduced: 67: ForStmt for leftparen semicolon Expr semicolon rightparen Stmt 
+table: A83		reduced: 57: Stmt ForStmt 
+table: A78		shifted: println
+table: A103		shifted: leftparen
+table: A154		shifted: stringconstant
+table: A107		reduced: 108: Constant stringconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A179		shifted: comma
+table: A197		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A179		reduced: 74: E Expr 
+table: A209		reduced: 73: E Expr comma E 
+table: A189		shifted: rightparen
+table: A204		shifted: semicolon
+table: A215		reduced: 72: PrintStmt println leftparen E rightparen semicolon 
+table: A86		reduced: 60: Stmt PrintStmt 
+table: A78		reduced: 52: S Stmt 
+table: A123		reduced: 51: S Stmt S 
+table: A123		reduced: 51: S Stmt S 
+table: A123		reduced: 51: S Stmt S 
+table: A123		reduced: 51: S Stmt S 
+table: A119		shifted: rightbrace
+table: A160		reduced: 45: StmtBlock leftbrace V S rightbrace 
+table: A60		reduced: 18: FunctionDecl void id leftparen rightparen StmtBlock 
+table: A4		reduced: 5: Decl FunctionDecl 
+table: A2		shifted: class
+table: A10		shifted: id
+table: A21		shifted: leftbrace
+table: A27		shifted: int
+table: A12		reduced: 10: Type int 
+table: A8		shifted: id
+table: A18		reduced: 9: Variable Type id 
+table: A7		shifted: semicolon
+table: A17		reduced: 8: VariableDecl Variable semicolon 
+table: A43		reduced: 35: Field VariableDecl 
+table: A42		shifted: double
+table: A13		reduced: 11: Type double 
+table: A8		shifted: id
+table: A18		reduced: 9: Variable Type id 
+table: A7		shifted: semicolon
+table: A17		reduced: 8: VariableDecl Variable semicolon 
+table: A43		reduced: 35: Field VariableDecl 
+table: A42		shifted: boolean
+table: A14		reduced: 12: Type boolean 
+table: A8		shifted: id
+table: A18		reduced: 9: Variable Type id 
+table: A7		shifted: semicolon
+table: A17		reduced: 8: VariableDecl Variable semicolon 
+table: A43		reduced: 35: Field VariableDecl 
+table: A42		shifted: string
+table: A15		reduced: 13: Type string 
+table: A8		shifted: id
+table: A18		reduced: 9: Variable Type id 
+table: A7		shifted: semicolon
+table: A17		reduced: 8: VariableDecl Variable semicolon 
+table: A43		reduced: 35: Field VariableDecl 
+table: A42		shifted: int
+table: A12		reduced: 10: Type int 
+table: A8		shifted: leftbracket
+table: A19		shifted: rightbracket
+table: A24		reduced: 14: Type Type leftbracket rightbracket 
+table: A8		shifted: id
+table: A18		reduced: 9: Variable Type id 
+table: A7		shifted: semicolon
+table: A17		reduced: 8: VariableDecl Variable semicolon 
+table: A43		reduced: 35: Field VariableDecl 
+table: A42		shifted: void
+table: A9		shifted: id
+table: A20		shifted: leftparen
+table: A25		shifted: rightparen
+table: A37		shifted: leftbrace
+table: A56		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: booleanconstant
+table: A108		reduced: 109: Constant booleanconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: doubleconstant
+table: A106		reduced: 107: Constant doubleconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: stringconstant
+table: A107		reduced: 108: Constant stringconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		shifted: while
+table: A99		shifted: leftparen
+table: A149		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: leftparen
+table: A92		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A142		shifted: division
+table: A128		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A164		reduced: 84: Expr Expr division Expr 
+table: A142		shifted: rightparen
+table: A180		reduced: 80: Expr leftparen Expr rightparen 
+table: A174		shifted: less
+table: A130		shifted: intconstant
+table: A105		reduced: 106: Constant intconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A166		reduced: 87: Expr Expr less Expr 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A185		shifted: rightparen
+table: A201		shifted: println
+table: A103		shifted: leftparen
+table: A154		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		reduced: 77: Expr Lvalue 
+table: A179		shifted: comma
+table: A197		shifted: stringconstant
+table: A107		reduced: 108: Constant stringconstant 
+table: A89		reduced: 76: Expr Constant 
+table: A179		reduced: 74: E Expr 
+table: A209		reduced: 73: E Expr comma E 
+table: A189		shifted: rightparen
+table: A204		shifted: semicolon
+table: A215		reduced: 72: PrintStmt println leftparen E rightparen semicolon 
+table: A86		reduced: 60: Stmt PrintStmt 
+table: A212		reduced: 64: WhileStmt while leftparen Expr rightparen Stmt 
+table: A82		reduced: 56: Stmt WhileStmt 
+table: A78		shifted: id
+table: A104		reduced: 99: Lvalue id 
+table: A88		shifted: assignop
+table: A138		shifted: newarray
+table: A97		shifted: leftparen
+table: A147		shifted: intconstant
+table: A183		shifted: comma
+table: A199		shifted: int
+table: A12		reduced: 10: Type int 
+table: A210		shifted: rightparen
+table: A217		reduced: 98: Expr newarray leftparen intconstant comma Type rightparen 
+table: A174		reduced: 75: Expr Lvalue assignop Expr 
+table: A79		shifted: semicolon
+table: A124		reduced: 53: Stmt Expr semicolon 
+table: A78		reduced: 52: S Stmt 
+table: A123		reduced: 51: S Stmt S 
+table: A123		reduced: 51: S Stmt S 
+table: A123		reduced: 51: S Stmt S 
+table: A123		reduced: 51: S Stmt S 
+table: A123		reduced: 51: S Stmt S 
+table: A75		shifted: rightbrace
+table: A121		reduced: 46: StmtBlock leftbrace S rightbrace 
+table: A60		reduced: 18: FunctionDecl void id leftparen rightparen StmtBlock 
+table: A44		reduced: 36: Field FunctionDecl 
+table: A42		reduced: 34: F Field 
+table: A65		reduced: 33: F Field F 
+table: A65		reduced: 33: F Field F 
+table: A65		reduced: 33: F Field F 
+table: A65		reduced: 33: F Field F 
+table: A65		reduced: 33: F Field F 
+table: A40		shifted: rightbrace
+table: A64		reduced: 22: ClassDecl class id leftbrace F rightbrace 
+table: A5		reduced: 6: Decl ClassDecl 
+table: A2		reduced: 2: Program Decl 
+table: A16		reduced: 3: Program Decl Program 
+table: A16		reduced: 3: Program Decl Program 
+table: A1		reduced: 1: S' Program 
+accept
+
+1 3 3 2 6 22 33 33 33 33 33 34 36 18 46 51 51 51 51 51 52 53 75 98 10 99 56 64 60 72 73 74 76 108 77 99 75 87 76 106 80 84 76 106 77 99 99 53 75 76 108 99 53 75 76 107 99 53 75 76 106 99 53 75 76 109 99 35 8 9 14 10 35 8 9 13 35 8 9 12 35 8 9 11 35 8 9 10 5 18 45 51 51 51 51 52 60 72 73 74 77 99 76 108 57 67 61 46 51 52 53 75 81 76 106 77 99 99 53 75 83 77 99 77 99 99 88 76 106 77 99 53 75 76 106 99 53 75 76 106 99 60 72 73 73 74 76 108 79 102 74 76 106 99 76 108 49 50 8 9 10 8 9 10 5 15 46 52 55 62 59 70 76 106 59 70 83 79 102 74 82 76 106 77 99 99 77 99 89 76 106 77 99 19 9 10 10 
